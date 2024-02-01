@@ -15,7 +15,7 @@ class Server:
         e.tplog_info("Server shutdown")
 
     def DEBIT(self, args):
-        args.data["data"][t.tx_debit]: "passed"
+        args.data["data"][t.tx_debit]= "passed"
         return e.tpforward("CREDIT", args.data)
         # return e.tpreturn(e.TPSUCCESS, 0, args.data)
 

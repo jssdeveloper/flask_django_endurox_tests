@@ -1,7 +1,0 @@
-N:NDRX:2:eda0d263:05370:7f148ad45640:002:20240106:165246324468:ward_process:orward.c:1091:***********BACKGROUND PROCESS END **********
-Server exit: 0, id: 60
-N:NDRX:2:eda0d263:05610:7f84d631a640:000:20240106:165246352895:ward_process:orward.c:1085:***********BACKGROUND PROCESS START ********
-N:NDRX:2:eda0d263:84280:7fdaa1745640:000:20240126:194908355540:ward_process:orward.c:1085:***********BACKGROUND PROCESS START ********
-N:NDRX:2:eda0d263:84280:7fdaa1745640:002:20240126:200020957576:ward_process:orward.c:1091:***********BACKGROUND PROCESS END **********
-Server exit: 0, id: 60
-N:NDRX:2:eda0d263:85876:7f6f7f277640:000:20240126:200020986001:ward_process:orward.c:1085:***********BACKGROUND PROCESS START ********

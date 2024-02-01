@@ -15,7 +15,7 @@ class Server:
         e.tplog_info("Server shutdown")
 
     def CREDIT(self, args):
-        args.data["data"][t.tx_credit]: "passed"
+        args.data["data"][t.tx_credit]= "passed"
         return e.tpreturn(e.TPSUCCESS, 0, args.data)
 
 
