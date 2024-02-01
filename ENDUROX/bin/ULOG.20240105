@@ -1,0 +1,35 @@
+07924:20240105:20274220:xadmin      :Generate python server
+07924:20240105:20274220:xadmin      : 0: svname       :XATMI Server Name (script) [testsv]: 
+07924:20240105:20275219:xadmin      : 1: svcname      :Service name [TESTSV]: 
+07924:20240105:20281500:xadmin      : 2: useubf       :Use UBF? [y]: 
+07924:20240105:20281968:xadmin      : 3: config       :INI File section (optional, will read config if set) []: 
+07924:20240105:20282720:xadmin      : 0: Edit svname       :XATMI Server Name (script) [transaction]: 
+07924:20240105:20282720:xadmin      : 1: Edit svcname      :Service name [CREATE_TRANSACTION]: 
+07924:20240105:20282720:xadmin      : 2: Edit useubf       :Use UBF? [y]: 
+07924:20240105:20282720:xadmin      : 3: Edit config       :INI File section (optional, will read config if set) []: 
+07924:20240105:20282866:xadmin      :User entered: w
+07924:20240105:20282867:xadmin      :Accepted
+07924:20240105:20282867:xadmin      :Writting off [/home/janis/TEST/python_endurox_tests/ENDUROX/bin/transaction.py] with [#!/usr/bin/env python3
+
+import sys
+import endurox as e
+
+class Server:
+
+    def tpsvrinit(self, args):
+        e.tplog_info("Doing server init...");
+        e.tpadvertise("CREATE_TRANSACTION", "CREATE_TRANSACTION", Server.CREATE_TRANSACTION)
+        return 0
+
+    def tpsvrdone(self):
+        e.tplog_info("Server shutdown")
+
+    def CREATE_TRANSACTION(self, args):
+        e.tplogprintubf(e.log_info, "Incoming request:", args.data)
+        args.data["data"]["T_STRING_2_FLD"]="Hello World from XATMI server"
+        return e.tpreturn(e.TPSUCCESS, 0, args.data)
+
+if __name__ == "__main__":
+    e.tprun(Server(), sys.argv)
+]
+07924:20240105:20282867:xadmin      :Setting 755 to [/home/janis/TEST/python_endurox_tests/ENDUROX/bin/transaction.py]

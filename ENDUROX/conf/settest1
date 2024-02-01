@@ -1,0 +1,10 @@
+#/bin/bash
+#
+# @(#) Load this script in environment
+#
+export NDRX_APPHOME=/home/janis/TEST/python_endurox_tests/ENDUROX
+export NDRX_CCONFIG=$NDRX_APPHOME/conf
+export PATH=$PATH:$NDRX_APPHOME/bin
+export CDPATH=$CDPATH:.:$NDRX_APPHOME
+export PYTHONPATH=$PYTHONPATH:$NDRX_APPHOME/ubftab
+

@@ -1,0 +1,18 @@
+n:NDRX:3:eda0d263:05451:7fb5dd0405c0:001:20240106:165247822873:cpm_killall :ltexec.c:0356:Terminating all with SIGINT
+n:NDRX:3:eda0d263:05451:7fb5dd0405c0:001:20240106:165247822898:cpm_killall :ltexec.c:0367:Killing: RESTIN/-/5453 with SIGINT
+n:NDRX:3:eda0d263:05451:7fb5dd0405c0:001:20240106:165248123147:cpm_killall :ltexec.c:0356:Terminating all with SIGTERM
+n:NDRX:3:eda0d263:05451:7fb5dd0405c0:001:20240106:165248123183:cpm_killall :ltexec.c:0356:Terminating all with SIGKILL
+n:NDRX:2:eda0d263:05451:7fb5dd0405c0:001:20240106:165248123395:x_sem_remove:td_sem.c:0307:Removing semid: 27
+Server exit: 0, id: 9999
+n:NDRX:3:eda0d263:05691:7fd4aa2045c0:000:20240106:165248140105:drx_sem_open:td_sem.c:0286:Semaphore for key 44002 open, id: 28
+n:NDRX:3:eda0d263:05691:7fd4aa2045c0:001:20240106:165249142089:cpm_exec    :ltexec.c:0567:*********processing for startup restincl *********
+n:NDRX:3:eda0d263:84411:7f7f912c15c0:000:20240126:194909619680:drx_sem_open:td_sem.c:0286:Semaphore for key 44002 open, id: 2
+n:NDRX:3:eda0d263:84411:7f7f912c15c0:001:20240126:194910621181:cpm_exec    :ltexec.c:0567:*********processing for startup restincl *********
+n:NDRX:3:eda0d263:84411:7f7f912c15c0:001:20240126:200022454571:cpm_killall :ltexec.c:0356:Terminating all with SIGINT
+n:NDRX:3:eda0d263:84411:7f7f912c15c0:001:20240126:200022454605:cpm_killall :ltexec.c:0367:Killing: RESTIN/-/84507 with SIGINT
+n:NDRX:3:eda0d263:84411:7f7f912c15c0:001:20240126:200022755366:cpm_killall :ltexec.c:0356:Terminating all with SIGTERM
+n:NDRX:3:eda0d263:84411:7f7f912c15c0:001:20240126:200022755428:cpm_killall :ltexec.c:0356:Terminating all with SIGKILL
+n:NDRX:2:eda0d263:84411:7f7f912c15c0:001:20240126:200022755846:x_sem_remove:td_sem.c:0307:Removing semid: 2
+Server exit: 0, id: 9999
+n:NDRX:3:eda0d263:85967:7fee19c2b5c0:000:20240126:200022772596:drx_sem_open:td_sem.c:0286:Semaphore for key 44002 open, id: 3
+n:NDRX:3:eda0d263:85967:7fee19c2b5c0:001:20240126:200023774302:cpm_exec    :ltexec.c:0567:*********processing for startup restincl *********

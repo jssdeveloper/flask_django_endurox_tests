@@ -1,0 +1,118 @@
+$#ifndef __TRANSACTION_H
+$#define __TRANSACTION_H
+
+*base 15000
+
+#NAME	            	    ID	TYPE	FLAG	COMMENT
+#----		                --	----	----	-------
+tx_access_token               101	string	-	Access token
+tx_token_type                 102	string	-	Token type
+tx_expires_in                 103	long	-	expires in
+tx_status                     104	string	-	Status
+tx_creation_date              105	long	-	creation date
+tx_expiration_date            106	long	-	expiration date
+tx_consent_id                 107	string	-	Consent ID
+tx_account_id                 108	string	-	Account ID
+tx_account_type               109	string	-	Account type
+tx_account_subtype            110	string	-	Account subtype
+tx_nickname                   111	string	-	Nickname
+tx_bank_name                  112	string	-	Bank name
+tx_verified                   113	short	-	verified
+tx_countries                  114	string	-	Countries
+tx_developer_portal           115	string	-	Developer portal
+tx_label                      116	string	-	Label
+tx_premium                    117	short	-	premium
+tx_categories                 118	string	-	Categories
+tx_documentation_url          119	string	-	Documentation URL
+tx_blocked                    120	short	-	blocked
+tx_bank_swift                 121	string	-	Bank SWIFT
+tx_balance_available          122	double	-	Balance available
+tx_limit                      123	double	-	Limit
+tx_amount                     124	double	-	Amount
+tx_currency                   125	string	-	Currency
+tx_transaction_details        126	string	-	Transaction details
+tx_country                    127	string	-	Country
+tx_city                       128	string	-	City
+tx_street                     129	string	-	Street
+tx_street_number              130	string	-	Street number
+tx_apt_number                 131	long	-	apartment number
+tx_debit_response_code        132	long	-	debit response code
+tx_credit_respoonse_code      133	long	-	credit response code
+tx_test                       134	short	-	test
+tx_fee                        135	double	-	Fee
+tx_source_order_id            136	long	-	source order ID
+tx_credit_exceeded            137	short	-	credit exceeded
+tx_merchant                   138	string	-	Merchant
+tx_account_number             139	string	-	Account number
+tx_transaction_type           140	string	-	Transaction type
+tx_category                   141	string	-	Category
+tx_location                   142	string	-	Location
+tx_payment_method             143	string	-	Payment method
+tx_card_type                  144	string	-	Card type
+tx_card_last_digits           145	string	-	Card last digits
+tx_authorization_code         146	string	-	Authorization code
+tx_is_expense_reported        147	short	-	is expense reported
+tx_is_receipt_attached        148	short	-	is receipt attached
+tx_is_pending                 149	short	-	is pending
+tx_is_duplicate               150	short	-	is duplicate
+tx_is_recurring               151	short	-	is recurring
+tx_is_anomaly                 152	short	-	is anomaly
+tx_is_flagged                 153	short	-	is flagged
+tx_beneficiary_name           154	string	-	Beneficiary name
+tx_beneficiary_account        155	string	-	Beneficiary account
+tx_beneficiary_bank           156	string	-	Beneficiary bank
+tx_tax_amount                 157	double	-	Tax amount
+tx_tax_rate                   158	long	-	tax rate
+tx_fee_amount                 159	double	-	Fee amount
+tx_fee_description            160	string	-	Fee description
+tx_insurance_policy           161	string	-	Insurance policy
+tx_device_type                162	string	-	Device type
+tx_ip_address                 163	string	-	IP address
+tx_browser                    164	string	-	Browser
+tx_os                         165	string	-	Operating system
+tx_is_fraudulent              166	short	-	is fraudulent
+tx_related_transactions       167	string	-	Related transactions
+tx_test_field1                168	string	-	Test field 1
+tx_test_field2                169	string	-	Test field 2
+tx_test_field3                170	string	-	Test field 3
+tx_test_field4                171	string	-	Test field 4
+tx_test_field5                172	string	-	Test field 5
+tx_test_field6                173	string	-	Test field 6
+tx_test_field7                174	string	-	Test field 7
+tx_test_field8                175	string	-	Test field 8
+tx_test_field9                176	string	-	Test field 9
+tx_test_field10               177	string	-	Test field 10
+tx_test_field11               178	string	-	Test field 11
+tx_test_field12               179	string	-	Test field 12
+tx_test_field13               180	string	-	Test field 13
+tx_test_field14               181	string	-	Test field 14
+tx_test_field15               182	string	-	Test field 15
+tx_test_field16               183	string	-	Test field 16
+tx_test_field17               184	string	-	Test field 17
+tx_test_field18               185	string	-	Test field 18
+tx_test_field19               186	string	-	Test field 19
+tx_test_field20               187	string	-	Test field 20
+tx_test_field21               188	string	-	Test field 21
+tx_test_field22               189	string	-	Test field 22
+tx_test_field23               190	string	-	Test field 23
+tx_test_field24               191	string	-	Test field 24
+tx_test_field25               192	string	-	Test field 25
+tx_test_field26               193	string	-	Test field 26
+tx_test_field27               194	string	-	Test field 27
+tx_test_field28               195	string	-	Test field 28
+tx_test_field29               196	string	-	Test field 29
+tx_test_field30               197	string	-	Test field 30
+tx_test_field31               198	string	-	Test field 31
+tx_test_field32               199	string	-	Test field 32
+tx_test_field33               200	string	-	Test field 33
+tx_test_field34               201	string	-	Test field 34
+tx_test_field35               202	string	-	Test field 35
+tx_test_field36               203	string	-	Test field 36
+tx_test_field37               204	string	-	Test field 37
+tx_test_field38               205	string	-	Test field 38
+tx_test_field39               206	string	-	Test field 39
+tx_test_field40               207	string	-	Test field 40
+tx_credit              	208	string	-	credit status
+tx_debit              	209	string	-	debit status
+
+$#endif
